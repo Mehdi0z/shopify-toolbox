@@ -1,0 +1,8 @@
+    .compFormattedName {
+        .compFormattedName-title {
+            font-size: '{{ section.settings.fontsize_title | append: "px" }}';
+            line-height: '{{ section.settings.lineheight_title | append: "px" }}';
+        }
+
+        .compFormattedName-image {}
+    }

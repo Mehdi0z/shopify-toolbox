@@ -1,0 +1,20 @@
+  /* Write your styles here */
+
+  :root {
+    /*
+     example of liquid variable usage:
+    --color-white: '{{ settings.colors_text_white }}';
+    --product-title-font-size : '{{ settings.product_title_font_size | append: 'px' }}';
+    */
+}
+
+/* https://github.com/postcss/postcss-custom-media */
+
+@custom-media --very-large-and-up (min-width: 1440px);
+@custom-media --large-and-up (min-width: 1280px);
+@custom-media --large-and-down (max-width: 1279px);
+@custom-media --medium-and-up (min-width: 1024px);
+@custom-media --medium-and-down (max-width: 1023px);
+@custom-media --small-and-up (min-width: 768px);
+@custom-media --small-and-down (max-width: 767px);
+    
